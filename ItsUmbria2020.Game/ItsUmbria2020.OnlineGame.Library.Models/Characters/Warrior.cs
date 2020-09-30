@@ -13,7 +13,7 @@ namespace ItsUmbria2020.OnlineGame.Library.Models.Characters
         {
         }
 
-        public override int MaxHealth => 130;
-        public override int MaxMana => 20;
+        protected override int BaseHealth => 130;
+        protected override int BaseMana => 20;
     }
 }

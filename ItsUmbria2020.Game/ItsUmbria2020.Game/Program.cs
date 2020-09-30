@@ -13,18 +13,17 @@ namespace ItsUmbria2020.Game
             Warrior warrior = new Warrior();
             Wizard wizard = new Wizard();
             Rogue rogue = new Rogue();
+            Paladin paladin = new Paladin();
             characters.Add(warrior);
             characters.Add(wizard);
             characters.Add(rogue);
+            characters.Add(paladin);
 
             //wizard.ThrowFireBall(warrior);
 
             foreach (Character character in characters)
             {
-                Console.WriteLine($"{character.Name} = {character.HealthPoints}");
-                character.Heal(100);
-                Console.WriteLine($"{character.Name} = {character.HealthPoints}");
-
+                character.PrintInfo();
             }
         }
     }
