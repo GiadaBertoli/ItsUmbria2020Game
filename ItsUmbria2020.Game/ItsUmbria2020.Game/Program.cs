@@ -1,5 +1,6 @@
 ﻿using ItsUmbria2020.OnlineGame.Library.Models.Characters;
 using System;
+using System.Collections.Generic;
 using System.Reflection.PortableExecutable;
 
 namespace ItsUmbria2020.Game
@@ -8,15 +9,23 @@ namespace ItsUmbria2020.Game
     {
         static void Main(string[] args)
         {
-            Character character = new Wizard();
-            PrintCharacters(new Wizard());
-        }
+            List<Character> characters = new List<Character>();
+            Warrior warrior = new Warrior();
+            Wizard wizard = new Wizard();
+            Rogue rogue = new Rogue();
+            characters.Add(warrior);
+            characters.Add(wizard);
+            characters.Add(rogue);
 
-        private static void PrintCharacters(Character character)
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(character.Name);
-            Console.ResetColor();
+            //wizard.ThrowFireBall(warrior);
+
+            foreach (Character character in characters)
+            {
+                Console.WriteLine($"{character.Name} = {character.HealthPoints}");
+                character.Heal(100);
+                Console.WriteLine($"{character.Name} = {character.HealthPoints}");
+
+            }
         }
     }
 }
