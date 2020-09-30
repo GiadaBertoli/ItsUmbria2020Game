@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ItsUmbria2020.OnlineGame.Library.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ItsUmbria2020.OnlineGame.Library.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ItsUmbria2020.OnlineGame.Library.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ItsUmbria2020.OnlineGame.Library.Models/1.0.0": {
+      "type": "project",
+      "path": "../ItsUmbria2020.OnlineGame.Library.Models/ItsUmbria2020.OnlineGame.Library.Models.csproj",
+      "msbuildProject": "../ItsUmbria2020.OnlineGame.Library.Models/ItsUmbria2020.OnlineGame.Library.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ItsUmbria2020.OnlineGame.Library.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Utente\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utente\\source\\repos\\ItsUmbria2020.Game\\ItsUmbria2020.Game\\ItsUmbria2020.Game.csproj",
+      "projectUniqueName": "C:\\Users\\Utente\\Source\\Repos\\ItsUmbria2020Game\\ItsUmbria2020.Game\\ItsUmbria2020.Game\\ItsUmbria2020.Game.csproj",
       "projectName": "ItsUmbria2020.Game",
-      "projectPath": "C:\\Users\\Utente\\source\\repos\\ItsUmbria2020.Game\\ItsUmbria2020.Game\\ItsUmbria2020.Game.csproj",
+      "projectPath": "C:\\Users\\Utente\\Source\\Repos\\ItsUmbria2020Game\\ItsUmbria2020.Game\\ItsUmbria2020.Game\\ItsUmbria2020.Game.csproj",
       "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utente\\source\\repos\\ItsUmbria2020.Game\\ItsUmbria2020.Game\\obj\\",
+      "outputPath": "C:\\Users\\Utente\\Source\\Repos\\ItsUmbria2020Game\\ItsUmbria2020.Game\\ItsUmbria2020.Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Utente\\Source\\Repos\\ItsUmbria2020Game\\ItsUmbria2020.Game\\ItsUmbria2020.OnlineGame.Library.Models\\ItsUmbria2020.OnlineGame.Library.Models.csproj": {
+              "projectPath": "C:\\Users\\Utente\\Source\\Repos\\ItsUmbria2020Game\\ItsUmbria2020.Game\\ItsUmbria2020.OnlineGame.Library.Models\\ItsUmbria2020.OnlineGame.Library.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

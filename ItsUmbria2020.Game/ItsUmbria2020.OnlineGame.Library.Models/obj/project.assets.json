@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utente\\source\\repos\\ItsUmbria2020.Game\\ItsUmbria2020.OnlineGame.Library.Models\\ItsUmbria2020.OnlineGame.Library.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Utente\\Source\\Repos\\ItsUmbria2020Game\\ItsUmbria2020.Game\\ItsUmbria2020.OnlineGame.Library.Models\\ItsUmbria2020.OnlineGame.Library.Models.csproj",
       "projectName": "ItsUmbria2020.OnlineGame.Library.Models",
-      "projectPath": "C:\\Users\\Utente\\source\\repos\\ItsUmbria2020.Game\\ItsUmbria2020.OnlineGame.Library.Models\\ItsUmbria2020.OnlineGame.Library.Models.csproj",
+      "projectPath": "C:\\Users\\Utente\\Source\\Repos\\ItsUmbria2020Game\\ItsUmbria2020.Game\\ItsUmbria2020.OnlineGame.Library.Models\\ItsUmbria2020.OnlineGame.Library.Models.csproj",
       "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utente\\source\\repos\\ItsUmbria2020.Game\\ItsUmbria2020.OnlineGame.Library.Models\\obj\\",
+      "outputPath": "C:\\Users\\Utente\\Source\\Repos\\ItsUmbria2020Game\\ItsUmbria2020.Game\\ItsUmbria2020.OnlineGame.Library.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
